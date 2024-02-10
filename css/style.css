@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background: #ea8685;
+    font-family: 'Roboto Mono', monospace;
+}
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+#title {
+    text-align: center;
+    font-size: 50px;
+}
+#inputText {
+    width: 300px;
+    height: 46px;
+    outline: none; /* anahat veya dis cizgi */
+    border: 1px solid black;
+    font-size: 25px;
+    vertical-align: middle;
+    border: 3px solid orange;
+    border-radius: 15px;
+    color: blue;
+}
+#addToDo {
+    margin-left: 3px;
+    width: 80px;
+    height: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: yellowgreen;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#addToDo:active { 
+    background-color: gray;
+}
+#clearToDo {
+    margin-left: 3px;
+    width: 90px;
+    height: 45px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(80, 138, 232);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+
+}
+#clearToDo:active { 
+    background-color: gray;
+}
+.p-styling {
+    margin: 5px;
+    cursor: pointer;
+    font-size: 30px;
+    color: blue;
+    text-transform: capitalize; /* bas harfi buyuk olsun*/
+
+}
+#to-dos {
+    margin-top: 35px;
+}
